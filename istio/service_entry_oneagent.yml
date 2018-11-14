@@ -61,16 +61,6 @@ spec:
   - match:
     - port: 443
       sni_hosts:
-      - sg-us-east-1-34-196-118-31-prod22-virginia.live.ruxit.com
-    route:
-    - destination:
-        host: sg-us-east-1-34-196-118-31-prod22-virginia.live.ruxit.com
-        port:
-          number: 443
-          name: HTTPS
-  - match:
-    - port: 443
-      sni_hosts:
       - sg-us-east-1-54-164-42-22-prod-us-east-cluster-2.live.ruxit.com
     route:
     - destination:
